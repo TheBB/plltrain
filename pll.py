@@ -162,7 +162,7 @@ class PLL:
     def press(self, event):
         if event.key == self.name[0]:
             self.name = self.name[1:]
-        if not self.name or event.key == 'c':
+        if not self.name or event.key == ' ':
             self.show()
         if event.key == 'q':
             sys.exit(0)
